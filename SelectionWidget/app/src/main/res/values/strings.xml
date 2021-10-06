@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SelectionWidget</string>
+    <string-array name="buku">
+        <item>Si Kancil Mencuri Mentimun</item>
+        <item>Pinochio</item>
+        <item>Timun Emas</item>
+        <item>Laskar Pelangi</item>
+        <item>5 Cm</item>
+        <item>Filosofi Kopi</item>
+        <item>Kamus Bahasa Indonesia Lengkap</item>
+        <item>Kamus Bahasa Inggris Lengkap</item>
+        <item>E.Y.D Bahasa Infonesia</item>
+        <item>Atlas</item>
+        <item>Api Abadi</item>
+        <item>A Cup of tea</item>
+        <item>A History China</item>
+        <item>Belajar koding</item>
+    </string-array>
+</resources>
