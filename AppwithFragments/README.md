@@ -5,7 +5,7 @@
 <p>Prodi : TIF A </p>
 <hr>
 
-<h3>Fragment/h3>
+<h3>Fragment</h3>
 <p><b>Tampilan Awal</b></p>
 <p align="center">
 <img align="center" src="https://user-images.githubusercontent.com/74761484/137308504-ca14f5d0-f058-43c0-aca9-f69c05fbd863.jpg" width="360px" height="780px">
