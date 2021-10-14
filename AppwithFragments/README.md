@@ -8,7 +8,7 @@
 <h3>Fragment</h3>
 <p><b>Tampilan Awal</b></p>
 <p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74761484/136246471-2a218a28-6c2a-4b57-b91a-62107306426f.jpg" width="360px" height="780px">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/137303591-78d71d37-9089-46a8-9b90-90e254c565b0.jpg" width="360px" height="780px">
 </p>
 
 <p><b>Tampilan Fragment Music</b></p>
