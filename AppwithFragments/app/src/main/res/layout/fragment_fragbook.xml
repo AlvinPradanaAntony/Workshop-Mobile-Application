@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#202146"
+    tools:context=".fragbook">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="671dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/stylelayout1"
+                android:orientation="vertical"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginRight="35dp"
+                    android:fontFamily="@font/robotobold"
+                    android:text="Buku"
+                    android:textColor="#202146"
+                    android:textSize="26dp" />
+
+                <EditText
+                    android:id="@+id/cariBuku"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="35dp"
+                    android:background="@drawable/styleautocomplete"
+                    android:drawableLeft="@drawable/iconsearch"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/robotoregular"
+                    android:hint="Cari Buku"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="35dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="35dp"
+
+                        android:layout_weight="1"
+                        android:fontFamily="@font/robotobold"
+                        android:text="List Buku"
+                        android:textColor="#202146"
+                        android:textSize="18dp" />
+
+                    <Spinner
+                        android:id="@+id/kategoriBuku"
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycleViewBuku"
+                    android:layout_width="match_parent"
+                    android:layout_height="390dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="35dp"
+                    android:nestedScrollingEnabled="true"
+                    android:scrollbars="none" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

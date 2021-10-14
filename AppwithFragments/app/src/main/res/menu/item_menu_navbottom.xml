@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_music"
+        android:icon="@drawable/ic_baseline_music_note_24"
+        android:title="Music"/>
+    <item
+        android:id="@+id/nav_book"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="Book"/>
+    <item
+        android:id="@+id/empty"
+        android:title=""/>
+    <item
+        android:id="@+id/nav_film"
+        android:icon="@drawable/ic_baseline_local_movies_24"
+        android:title="Film"/>
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile"/>
+</menu>
