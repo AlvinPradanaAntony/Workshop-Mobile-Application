@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">App with Fragments</string>
+
+    <string-array name="JudulBuku">
+        <item>Si Kancil Mencuri Mentimun</item>
+        <item>Filosofi Kopi</item>
+        <item>Kamus Bahasa Indonesia Lengkap</item>
+        <item>Pinochio</item>
+        <item>Kamus Bahasa Inggris Lengkap</item>
+        <item>Atlas</item>
+        <item>Laskar Pelangi</item>
+        <item>Api Abadi</item>
+        <item>Timun Emas</item>
+        <item>A Cup of tea</item>
+        <item>A History China</item>
+        <item>5 Cm</item>
+        <item>Belajar koding</item>
+        <item>E.Y.D Bahasa Infonesia</item>
+    </string-array>
+
+    <string-array name="Genre">
+        <item>Dongeng</item>
+        <item>Novel</item>
+        <item>Kamus</item>
+        <item>Dongeng</item>
+        <item>Kamus</item>
+        <item>Others</item>
+        <item>Novel</item>
+        <item>Others</item>
+        <item>Dongeng</item>
+        <item>Novel</item>
+        <item>Others</item>
+        <item>Novel</item>
+        <item>Others</item>
+        <item>Kamus</item>
+    </string-array>
+
+    <string-array name="DetailBuku">
+        <item>
+            Si kancil sedang beristirahat di hutan, tiba-tiba datang kawanan bianatang
+            hutan lainnya berlari kearah kancil. Mereka berteriak ada kebakaran. Si kancil
+            terkejut dan berlari bersama mereka.</item>
+
+        <item>
+            Cerita utama dalam buku Filosofi Kopi bercerita tentang Ben dan Jody. Ben merupakan
+            seorang barista yang handal dalam meramu kopi. Ben dan Jody mendirikan suatu kedai kopi
+            yang disebut ‘Filosofi Kopi temukan Diri Anda Di Sini.’Ben memberikan sebuah gambaran singkat
+            mengenai filosofi kopi dari setiap racikan kopi yang diberikan  di kedai tersebut. Kedai tersebut
+            menjadi sangat ramai dan penuh pengunjung.Suatu hari, seorang pria kaya menantang Ben untuk membuat
+            sebuah racikan kopi yang apabila diminum akan membuat kita menahan napas karena saking takjubnya, dan
+            cuma bisa berkata : hidup ini sempurna, dan Ben berhasil membuatnya. Ramuan kopi yang disebut Ben’s Perfecto
+            tersebut menjadi minuman terenak hingga seorang pria datang dan mengatakan bahwa rasa kopi tersebut hanya
+            “lumayan enak” dibandingkan kopi yang pernah dicicipinya di suatu lokasi di Jawa Tengah. Ben dan Jody yang
+            penasaran dan langsung menuju lokasi tersebut. Kemudian mereka menemukan secangkir tiwus yang disuguhkan oleh
+            pemilik warung gubuk didaerah tersebut. Ben dan Jody meminum kopi tersebut tanpa berbicara sedikitpun. Kopi
+            tersebut memiliki rasa yang sempurna dan ada cerita serta filosofi yang menarik dari kopi tersebut. Ben yang
+            merasa gagal kembali ke Jakarta dengan putus asa. Untuk mencari tahu cara mengibur temannya, Jody kembali menemui
+            pemilik warung di Jawa Tengah tersebut dan sepulangnya dari sana, dia menghidangkan Ben segelas Kopi Tiwus dan sebuah
+            kartu bertuliskan “Kopi yang anda minum hari ini adalah Kopi Tiwus, walau tak ada yang sempurna, hidup ini indah begini
+            adanya”. Dan akhirnya Ben sadar bahwa dia selama ini mengambil jalan hidup yang salah, dan Ben juga sadar bahwa hidup ini
+            tidak ada yang sempurna. Dengan demikian Ben kembali sadar dan melanjutkan perjuangan serta hobinya di kedai Filosofi Kopi.</item>
+
+        <item>
+            Terdapat banyak kosakata beserta makna dalam bahasa Indonesia secara lengkap. Banyak manfaat ketika membaca kamus yaitu;
+        Menambah dan mengembangkan pembendarahaan kata, merangsang kemampuan utama bahasa Indonesia dan Asing, dan membantu Anda dalam menulis.</item>
+
+        <item>
+            Seorang pria miskin bernama Geppetto ingin mengukir boneka untuk mencari nafkah sebagai dalang. Dia diberi sepotong kayu ajaib, dan segera
+            setelah Geppetto mengukir boneka itu, yang dia beri namaPinokio , itu mulai melecehkan orang tua itu. Setelah kakinya dibuat, Pinokio melarikan
+            diri, dan Geppetto ditangkap saat dia merebut boneka itu. Pinokio kembali ke rumah Geppetto sendirian, dan saatTalking Cricket menegurnya , Pinocchio
+            membunuh kriket tersebut. Dengan caranya sendiri, dan mengabaikan semua nasihat, Pinokio segera terjerumus dengan berbagai karakter buruk, terutama Rubah
+            dan Kucing, yang berencana mencuri lima keping emas yang diberikan Pinokio untuk Geppetto. Akhirnya, Rubah dan Kucing, menyamar sebagai Assassins, menggantung
+            Pinokio untuk mendapatkan kepingan emas. Namun, Peri dengan Rambut Biru menyelamatkan Pinokio di saat-saat terakhir. Ketika Pinokio berbohong kepada Peri tentang
+            kepingan emas, hidungnya tumbuh panjang secara lucu. Kemudian, Pinokio kembali jatuh bersama Rubah dan Kucing, yang mengelabui dia dari kepingan emasnya. Akhirnya,
+            Pinokio menemukan Peri itu lagi dan tinggal bersamanya sebagai putranya. Dua kali dia mulai bersekolah, dan dua kali dia membiarkan dirinya disesatkan, yang kedua
+            kali mengakibatkan dia menjadi keledai. Setelah petualangan lebih lanjut, Pinokio ditelan oleh Hiu Mengerikan dan menemukan Geppetto hidup di dalam perut hiu. Pinokio
+            menyelamatkan ayahnya dan setelah itu merawatnya. Peri kemudian mengubah Pinokio menjadi anak laki-laki sejati.</item>
+
+        <item>
+            Terdapat banyak kosakata beserta makna dalam bahasa Inggris secara lengkap. Banyak manfaat ketika membaca kamus yaitu;
+            Menambah dan mengembangkan pembendarahaan kata, membantu untuk mengartikan sebuah katar dari bahasa Inondesia ke bahasa Inggris,
+            dan membantu Anda dalam menulis.</item>
+
+        <item>
+            Atlas adalah kumpulan peta yang disatukan dalam bentuk buku, tetapi juga ditemukan dalam bentuk multimedia. Atlas dapat memuat informasi geografi, batas negara, statisik geopolitik, sosial, agama, dan ekonomi.
+            Atlas yang pertama tidak diberi nama demikian pada saat pertama kali dipublikasikan. Buku pertama yang dapat disebut atlas dibuat berdasarkan hasil perhitungan dari Claudius Ptolemaeus, seorang ilmuwan yang mempelajari geografi yang bekerja di Aleksandria pada 150 SM. Edisi pertama dipublikasikan di Bologna pada 1477 dan memiliki 27 buah peta. Ilmuwan tidak dapat memastikan apakah gambar peta-peta tersebut berasal dari peta asli yang dibuat Ptolomaeus atau dibuat oleh ilmuwan abad pertengahan berdasarkan tulisan Ptolomaues. Sejak 1544, banyak peta yang dibuat, khususnya sehubungan dengan hubungan dagang antara Roma dan Venesia. Setiap pembuat peta bekerja terpisah, menghasilkan peta berdasarkan kebutuhannya masing-masing.
+            Abraham Ortelius dikenal karena membuat atlas modern pertama pada 20 Mei 1570. Karyanya yang berjudul Theatrum Orbis Terrarum, memuat 53 peta yang mencakup negara-negara di dunia pada saat itu. Karyanya tersebut merupakan buku pertama dari jenisnya yang memuat dalam ukuran yang seragam. Pada saat itu, karya tersebut terbilang sukses.</item>
+
+        <item>
+            Laskar Pelangi merupakan novel perdana Andrea Hirata yang bercerita mengenai kehidupan 10 anak di Desa Gantung, Kabupaten Gantung, Belitung Timur. Mereka berasal dari keluarga miskin yang menempuh pendidikan di suatu sekolah yang penuh dengan keterbatasan.
+            Namun, keterbatasan tidak membuat anak-anak putus asa, justru menjadi pendorong untuk melakukan hal yang lebih baik.
+            Sekolah Muhammadiyah di desa tersebut terancam dibubarkan karena saat itu muridnya hanya berjumlah 9 anak. Saat kepala sekolah akan berpidato, datang seorang ibu mendaftarkan anaknya sehingga sekolah tetap eksis.
+            Berawal dari sinilah cerita dimulai. Pertama-tama, pembagian tempat duduk di kelas. Lalu, anak-anak saling memperkenalkan diri. Masing-masing anak memiliki karakter dan tingkah yang khas. Mereka bernama Ikal, Lintang, Sahara, Mahar, A Kiong, Syahdan, Kucai, Borek, Trapani dan Harun.
+            Mereka adalah Laskar Pelangi. Julukan tersebut diberikan oleh Bu Muslimah karena mereka menyukai pelangi. Nama Laskar Pelangi ini pernah membuat nama sekolahnya menjadi harum.
+            Beberapa di antaranya adalah kejeniusan Lintang yang ingin mengalahkan seorang guru bernama Drs. Zulfikar dan akhirnya menang dalam lomba cerdas cermat. Kemudian, Mahar yang dipojokkan karena senang dengan okultisme ternyata berhasil memenangkan karnaval 17 Agustus.
+            Laskar Pelangi selalu melewati hari-hari yang menyenangkan, menangis dan tertawa bersama-sama. Cerita persahabatan sepuluh anak Laskar Pelangi berakhir sedih.
+            Ayah Lintang meninggal dunia sehingga membuat Einstein kecil itu harus mengalami putus sekolah. Kemudian, melangkah 12 tahun ke depan yang menceritakan Ikal pulang kampung usai berjuang di luar pulau.
+            Kisah-kisah pada novel dikemas dengan indah sehingga membuat pembaca terharu. Secara emosi, mampu merasakan semangat yang membara dari tokoh Laskar Pelangi.</item>
+
+        <item>Tidak ada data !!!</item>
+
+        <item>
+            Timun Mas atau Timun Emas (Jawa: "mentimun emas"). Adalah cerita rakyat Jawa menceritakan kisah seorang gadis pemberani yang mencoba untuk bertahan dan melarikan diri dari raksasa hijau jahat yang mencoba untuk menangkap dan memakannya.</item>
+
+        <item>Tentang perpisahan yang dia lewati, perjalanan yang mengubah diri, kehidupan setelah pernikahan, hingga kebahagiaan yang sedang dia cari.</item>
+
+        <item>
+            Literatur tentang sejarah Cina memang masih terbatas,bahkan setelah “The Middle Kingdom” pertama kali ditulis abad yang lalu.Buku ini akan mengurai tentang masa lalu,baik politik maupun sosial dan menjadikanya sebuah studi komprehensif tentang Cina.</item>
+
+        <item>
+            Novel ini menceritakan tentang persahabatan 5 orang manusia yang telah menjalin persahabatan selama tujuh tahun. Mereka selalu bersama-sama kemanapun mereka pergi dan beraktivitas, sampai pada suatu ketika mereka sampai pada titik jenuh dengan aktivitas yang mereka lakukan. Akhirnya mereka menemukan sebuah ide untuk tidak bertemu dan berkomunikasi selama tiga bulan. Dan kelima sahabat tersebut memutuskan untuk melepas rindu dengan mendaki puncak gunung Mahameru.</item>
+
+        <item>Buku ini berisi mengenai pembelajaran pengkodingan atau pemrograman dalam dunia IT baik dari sejarah sampai implemntasi</item>
+        <item>Kamus ini sangat berguna dalam menulis sebuah cerita, buku dan sebagainya, supaya apa yang kita tulis menyesuaikan dengan aturan E.Y.D Bahasa Indonesia supaya nantinya para pembaca mudah dalam mencerna informasi yang disampaikan secara tertulis r</item>
+    </string-array>
+</resources>
