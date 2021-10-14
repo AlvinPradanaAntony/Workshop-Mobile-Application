@@ -13,7 +13,7 @@
 
 <p><b>Tampilan Fragment Music</b></p>
 <p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74761484/137303190-6b69c554-efb8-4c33-8f14-b0e341fc94c4.jpg" width="360px" height="780px">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/137303897-cff235d5-93b6-4b82-b907-84e938decf29.jpg" width="360px" height="780px">
 </p>
 
 <p><b>Tampilan Fragment Buku</b></p>
