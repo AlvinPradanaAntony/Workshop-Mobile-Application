@@ -13,7 +13,7 @@
 
 <p><b>Tampilan Fragment Music</b></p>
 <p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74761484/137308558-f44196f7-6c73-4e62-88e8-e0e384c7681e.jpg" width="360px" height="780px">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/137309356-5b1dee74-e306-4d33-b25f-6b05b0c4b156.jpg" width="360px" height="780px">
 </p>
  
 <p><b>Tampilan Isi Detail Music</b></p>
