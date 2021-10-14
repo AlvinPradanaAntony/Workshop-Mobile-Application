@@ -5,14 +5,28 @@
 <p>Prodi : TIF A </p>
 <hr>
 
-<h3>Selection Widget</h3>
+<h3>Fragment</h3>
 <p><b>Tampilan Awal</b></p>
 <p align="center">
 <img align="center" src="https://user-images.githubusercontent.com/74761484/136246471-2a218a28-6c2a-4b57-b91a-62107306426f.jpg" width="360px" height="780px">
 </p>
 
-<h3>RecyclerView</h3>
-<p><b>Tampilan Awal</b></p>
+<p><b>Tampilan Fragment Music</b></p>
 <p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74761484/136420867-d9ecd391-19fb-4253-9ec0-ecfdfa3c62fd.jpg" width="360px" height="780px">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/137303190-6b69c554-efb8-4c33-8f14-b0e341fc94c4.jpg" width="360px" height="780px">
+</p>
+
+<p><b>Tampilan Fragment Buku</b></p>
+<p align="center">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/137303083-e06fa156-4cf5-42a2-a13f-bffde91d3443.jpg" width="360px" height="780px">
+</p>
+
+<p><b>Tampilan Fragment Film</b></p>
+<p align="center">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/137303327-42832939-1b4e-48a4-8dda-141501a1c027.jpg" width="360px" height="780px">
+</p>
+
+<p><b>Tampilan Fragment Profile</b></p>
+<p align="center">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/137303400-c918c205-3c25-429d-8736-28c58adb46b8.jpg" width="360px" height="780px">
 </p>
