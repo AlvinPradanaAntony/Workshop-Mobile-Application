@@ -18,7 +18,7 @@
 
 <p><b>Tampilan Klik Submit (When condition field is empty)</b></p>
 <p align="center">
-<img align="center" src="(https://user-images.githubusercontent.com/74761484/137428604-1f340f5c-b204-4e86-81f1-73b5c46c85e7.jpg" width="360px" height="780px">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/137428604-1f340f5c-b204-4e86-81f1-73b5c46c85e7.jpg" width="360px" height="780px">
 </p>
 
 <p><b>Tampilan Awal (Sebelum Klik Send)</b></p>
@@ -28,10 +28,10 @@
 
 <p><b>Tampilan Second Activity (Sesudah Klik Send)</b></p>
 <p align="center">
-<img align="center" src="(https://user-images.githubusercontent.com/74761484/137428604-1f340f5c-b204-4e86-81f1-73b5c46c85e7.jpg" width="360px" height="780px">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/137428604-1f340f5c-b204-4e86-81f1-73b5c46c85e7.jpg" width="360px" height="780px">
 </p>
 
 <p><b>Tampilan Klik Send (When condition field is empty)</b></p>
 <p align="center">
-<img align="center" src="(https://user-images.githubusercontent.com/74761484/137428604-1f340f5c-b204-4e86-81f1-73b5c46c85e7.jpg" width="360px" height="780px">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/137428604-1f340f5c-b204-4e86-81f1-73b5c46c85e7.jpg" width="360px" height="780px">
 </p>
