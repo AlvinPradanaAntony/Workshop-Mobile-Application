@@ -5,20 +5,33 @@
 <p>Prodi : TIF A </p>
 <hr>
 
-<h3>Selection Widget</h3>
+<h3>Intent</h3>
 <p><b>Tampilan Awal</b></p>
 <p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74761484/136246471-2a218a28-6c2a-4b57-b91a-62107306426f.jpg" width="360px" height="780px">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/137428411-a6832b50-f367-460f-800f-ad62aaeafcdf.jpg" width="360px" height="780px">
 </p>
 
-<h3>RecyclerView</h3>
-<p><b>Tampilan Awal</b></p>
+<p><b>Tampilan Klik Submit</b></p>
 <p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74761484/136420867-d9ecd391-19fb-4253-9ec0-ecfdfa3c62fd.jpg" width="360px" height="780px">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/137428483-85a029c6-7ec7-4d0f-a450-2367b3e2329d.jpg" width="360px" height="780px">
 </p>
 
-<h3>Fragment</h3>
-<p><b>Tampilan Awal</b></p>
+<p><b>Tampilan Klik Submit (When condition field is empty)</b></p>
 <p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74761484/137302723-ba1af36a-c944-4be5-ae7d-b391902d02a9.jpg" width="360px" height="780px">
+<img align="center" src="(https://user-images.githubusercontent.com/74761484/137428604-1f340f5c-b204-4e86-81f1-73b5c46c85e7.jpg" width="360px" height="780px">
+</p>
+
+<p><b>Tampilan Awal (Sebelum Klik Send)</b></p>
+<p align="center">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/137428788-21111d00-87e5-4413-bb79-c009e27d62db.jpg" width="360px" height="780px">
+</p>
+
+<p><b>Tampilan Second Activity (Sesudah Klik Send)</b></p>
+<p align="center">
+<img align="center" src="(https://user-images.githubusercontent.com/74761484/137428604-1f340f5c-b204-4e86-81f1-73b5c46c85e7.jpg" width="360px" height="780px">
+</p>
+
+<p><b>Tampilan Klik Send (When condition field is empty)</b></p>
+<p align="center">
+<img align="center" src="(https://user-images.githubusercontent.com/74761484/137428604-1f340f5c-b204-4e86-81f1-73b5c46c85e7.jpg" width="360px" height="780px">
 </p>
