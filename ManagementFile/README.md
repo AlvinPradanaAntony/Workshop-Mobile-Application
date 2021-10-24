@@ -8,40 +8,40 @@
 <h3>Fragment</h3>
 <p><b>Tampilan Awal</b></p>
 <p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74761484/137308504-ca14f5d0-f058-43c0-aca9-f69c05fbd863.jpg" width="360px" height="780px">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/138597613-8502f121-cdc2-446c-a42c-e41cb4f991e7.jpg" width="360px" height="780px">
 </p>
 
-<p><b>Tampilan Fragment Music</b></p>
+<p><b>Tampilan sebelum klik Save as Private</b></p>
 <p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74761484/137309356-5b1dee74-e306-4d33-b25f-6b05b0c4b156.jpg" width="360px" height="780px">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/138597634-a8abdf5a-b0fc-48a3-9583-47e48e362abd.jpg" width="360px" height="780px">
 </p>
  
-<p><b>Tampilan Isi Detail Music</b></p>
+<p><b>Tampilan Save as Private Berhasil</b></p>
 <p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74761484/137308774-c8028764-05e3-4216-9f29-5e0084f341ce.jpg" width="360px" height="780px">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/138597672-2dd9ebc0-d1d6-47c0-9ee3-d5ed7a58c37c.jpg" width="360px" height="780px">
 </p>
   
-<p><b>Tampilan Fragment Buku</b></p>
+<p><b>Tampilan Perizinan Aplikasi</b></p>
 <p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74761484/137308954-0d9b553d-4510-4893-995e-f35bcb0203f6.jpg" width="360px" height="780px">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/138597705-30a26fb3-2454-4e54-a06c-8a90c972e7ed.jpg" width="360px" height="780px">
 </p>
   
-<p><b>Tampilan Isi Detail Buku</b></p>
+<p><b>Tampilan sebelum klik Save as Public</b></p>
 <p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74761484/137309016-0d16eb9e-780c-4532-9923-00e44ca8857d.jpg" width="360px" height="780px">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/138597758-452723b6-5ab7-4ed1-9a5a-d33e2811f3cf.jpg" width="360px" height="780px">
 </p>
   
-<p><b>Tampilan Fragment Film</b></p>
+<p><b>Tampilan Save as Public Berhasil</b></p>
 <p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74761484/137309153-93b6aaef-0fe9-4376-82af-62a61c0c4086.jpg" width="360px" height="780px">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/138597779-5ceac486-15c9-444d-af15-9beebf051702.jpg" width="360px" height="780px">
 </p>
   
-<p><b>Tampilan Isi Detail Film</b></p>
+<p><b>Tampilan Action Button Show Private Data</b></p>
 <p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74761484/137309187-99d7dba2-b9b0-4e11-b73f-c5ea4c84eeca.jpg" width="360px" height="780px">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/138597812-023bbc7c-2449-4a42-bcd3-23876aedcd0d.jpg" width="360px" height="780px">
 </p>
   
-<p><b>Tampilan Fragment Profile</b></p>
+<p><b>Tampilan Action Button Show Public Data</b></p>
 <p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74761484/137309249-bcc68185-cafd-4617-bbd8-3d193939573b.jpg" width="360px" height="780px">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/138597841-4ee8da31-3425-49b8-83b1-75d2f2bc604c.jpg" width="360px" height="780px">
 </p>
