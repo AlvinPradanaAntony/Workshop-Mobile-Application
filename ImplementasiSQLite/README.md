@@ -28,7 +28,7 @@
   
 <p><b>Tampilan Action pada ListView</b></p>
 <p align="center">
-<img align="center" src="(https://user-images.githubusercontent.com/74761484/138597183-dfb3ac67-f276-44c7-b94b-76f78112818a.jpg" width="360px" height="780px">
+<img align="center" src="https://user-images.githubusercontent.com/74761484/138597183-dfb3ac67-f276-44c7-b94b-76f78112818a.jpg" width="360px" height="780px">
 </p>
   
 <p><b>Tampilan Form Lihat Biodata</b></p>
