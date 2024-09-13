@@ -5,11 +5,13 @@ import android.os.Parcelable;
 
 public class dataFIlm implements Parcelable {
    private String judul, releaseDate, DiskripsiFilm;
+   private int categoryID;
 
-    public dataFIlm(String judul, String releaseDate, String diskripsiFilm) {
+    public dataFIlm(String judul, String releaseDate, String diskripsiFilm, int categoryID) {
         this.judul = judul;
         this.releaseDate = releaseDate;
-        DiskripsiFilm = diskripsiFilm;
+        this.DiskripsiFilm = diskripsiFilm;
+        this.categoryID = categoryID;
     }
 
     public String getJudul() {
@@ -23,6 +25,8 @@ public class dataFIlm implements Parcelable {
     public String getReleaseDate() {
         return releaseDate;
     }
+
+    public int getCategoryID() {return categoryID;}
 
     public void setReleaseDate(String releaseDate) {
         this.releaseDate = releaseDate;

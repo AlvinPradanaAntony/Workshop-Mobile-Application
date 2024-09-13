@@ -6,9 +6,16 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.EditText;
+import android.widget.Spinner;
 
 import java.util.ArrayList;
 
@@ -37,7 +44,10 @@ public class fragmusic extends Fragment {
     int images[] = {R.drawable.icom1, R.drawable.icom2, R.drawable.icom3, R.drawable.icom4,
             R.drawable.icom5, R.drawable.icom6, R.drawable.icom7, R.drawable.icom8, R.drawable.
             icom9, R.drawable.icom10};
-
+    EditText cari;
+    Spinner kategori_music; // ---> untuk membuat variabel spinner dengan nama variabel "kategori".
+    //Inisialisasi sebuah array guna menampung kumpulan data yang dipakai sebagai kategori yang bertipe data string.
+    String [] category = new String[] {"All", "Pop", "Indie", "Rock" };
     public fragmusic() {
         // Required empty public constructor
     }
@@ -58,6 +68,38 @@ public class fragmusic extends Fragment {
         args.putString(ARG_PARAM2, param2);
         fragment.setArguments(args);
         return fragment;
+    }
+
+    private void getSelectCategory(int categoryID) {
+        ArrayList<dataMusik> objekmusik = new ArrayList<>();
+
+        if (categoryID == 0) {
+            adapter = new dataMusikAdapter(objMusik, images);
+        } else {
+            for (dataMusik musik : objMusik) {
+                if (musik.getCategoryID() == categoryID) {
+                    objekmusik.add(musik);
+                }
+            }
+           adapter = new dataMusikAdapter(objekmusik, images);
+        }
+        recyclerView.setAdapter(adapter);
+
+    }
+
+    // Membuat method untuk filtering data list
+    private void filter(String text) {
+        ArrayList<dataMusik> filteredList = new ArrayList<>();
+
+        // Sebuah kondisi yang mana jika hasil inputan yang diambil dari widget edittext sesuai pada data list
+        // maka list tersebut akan ditampilkan
+        for (dataMusik item : objMusik) {
+            // Proses filtering dilakukan berdasarkan nama dan huruf besar dan huruf kecil tidak mempengaruhi saat proses filtering
+            if (item.getJudul().toLowerCase().contains(text.toLowerCase())) {
+                filteredList.add(item);
+            }
+        }
+       adapter.filterList(filteredList);
     }
 
     @Override
@@ -140,7 +182,7 @@ public class fragmusic extends Fragment {
                         "I want you to the bone\n" +
                         "I want you to the bone, yeah\n" +
                         "I want you to the bone, bone, ooh\n" +
-                        "I want you to the bone"));
+                        "I want you to the bone", 2));
 
         objMusik.add(new dataMusik("Here's Your Perfect", "Jamie Miller",
                 "I remember the day\n" +
@@ -180,21 +222,61 @@ public class fragmusic extends Fragment {
                         "Ayy-ayy, ayy-ayy\n" +
                         "But now I know a perfect way to let you go\n" +
                         "Give my last hello, hope it's worth it\n" +
-                        "Here's your perfect"));
-        objMusik.add(new dataMusik("Peaches", "Justin Bieber", "-"));
-        objMusik.add(new dataMusik("Stay", "Justin Bieber", "-"));
-        objMusik.add(new dataMusik("Happier", "Olivia Rodrigo", "-"));
-        objMusik.add(new dataMusik("It's You", "Sezairi", "-"));
-        objMusik.add(new dataMusik("Life Goes On", "Olivia Rodrigo", "-"));
-        objMusik.add(new dataMusik("Roxanne", "Arizona Zervas", "-"));
-        objMusik.add(new dataMusik("Bohemian Rhapsody", "Queen", "-"));
-        objMusik.add(new dataMusik("Hotel California", "Eagles", "-"));
+                        "Here's your perfect", 1));
+        objMusik.add(new dataMusik("Peaches", "Justin Bieber", "-",1));
+        objMusik.add(new dataMusik("Stay", "Justin Bieber", "-",1));
+        objMusik.add(new dataMusik("Happier", "Olivia Rodrigo", "-", 1));
+        objMusik.add(new dataMusik("It's You", "Sezairi", "-", 2));
+        objMusik.add(new dataMusik("Life Goes On", "Olivia Rodrigo", "-",1));
+        objMusik.add(new dataMusik("Roxanne", "Arizona Zervas", "-",2));
+        objMusik.add(new dataMusik("Bohemian Rhapsody", "Queen", "-",3));
+        objMusik.add(new dataMusik("Hotel California", "Eagles", "-",3));
 
 
         // Membuat objek adapter baru untuk menghubungkan data pada java dengan widget recycler view yang berada pada suatu layout tertentu
         adapter = new dataMusikAdapter(objMusik, images);
         recyclerView.setAdapter(adapter); //mengambil data dari kumpulan data dan menampilkan data array ke recycleview
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext())); // menyusun kumpulan item dengan tata letak berupa daftar atau list
+
+        // Menginisialisasi variabel "kategori" pada elemen widget Spinner yang berfungsi untuk mencari sebuah resource komponen pada View menggunakan ID.
+        kategori_music = view.findViewById(R.id.kategoriMusic);
+        ArrayAdapter<String> adapterMusic = new ArrayAdapter(requireContext(), android.R.layout.simple_list_item_1, category);
+        // Untuk menampilkan data array kedalam ListView diperlukan sebuah adapter.
+        // Fungsi adapter tersebut adalah untuk menghubungkan data Array yang telah dibuat dengan nama array "category" ke dalam elemen View pada file layout.xml.
+        adapterMusic.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        // Mengubah tampilan data dengan menggunakan layout "simple_spinner_dropdown_item"
+        kategori_music.setAdapter(adapterMusic); // Menampilkan data ke View melalui adapter
+
+        kategori_music.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                getSelectCategory(position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+
+        cari = view.findViewById(R.id.cariMusic);
+        cari.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
+                filter(editable.toString());
+            }
+        });
+
         return view;
     }
 }

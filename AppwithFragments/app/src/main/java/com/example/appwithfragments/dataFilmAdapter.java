@@ -54,6 +54,11 @@ public class dataFilmAdapter extends RecyclerView.Adapter<dataFilmAdapter.dataFi
         });
     }
 
+    public void filterList(ArrayList<dataFIlm> filteredList) {
+        arrayListFilm = filteredList;
+        notifyDataSetChanged();
+    }
+
     @Override
     public int getItemCount() {
 

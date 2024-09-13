@@ -5,11 +5,13 @@ import android.os.Parcelable;
 
 public class dataMusik implements Parcelable {
    private String judul, artist, liriklagu;
+   private int categoryID;
 
-    public dataMusik(String judul, String artist, String liriklagu) {
+    public dataMusik(String judul, String artist, String liriklagu , int categoryID) {
         this.judul = judul;
         this.artist = artist;
         this.liriklagu = liriklagu;
+        this.categoryID = categoryID;
     }
 
     public String getJudul() {
@@ -23,6 +25,8 @@ public class dataMusik implements Parcelable {
     public String getArtist() {
         return artist;
     }
+
+    public int getCategoryID() {return categoryID; }
 
     public void setArtist(String artist) {
         this.artist = artist;

@@ -12,6 +12,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
+
 public class dataAdapter extends RecyclerView.Adapter<dataAdapter.dataViewHolder> {
     // Mendeklarasikan sebuah variabel untuk menampung arrayList maupun images atau gambar, dan context
     String data1[], data2[], data3[];
@@ -54,6 +56,14 @@ public class dataAdapter extends RecyclerView.Adapter<dataAdapter.dataViewHolder
                 context.startActivity(intent);
             }
         });
+    }
+
+    public void filterList(String[] filteredJudul, String[] filteredGenre, String[] filteredDetail, int[] filteredImages) {
+        data1 = filteredJudul;
+        data2  = filteredGenre;
+        data3 = filteredDetail;
+        images = filteredImages;
+        notifyDataSetChanged();
     }
 
     @Override

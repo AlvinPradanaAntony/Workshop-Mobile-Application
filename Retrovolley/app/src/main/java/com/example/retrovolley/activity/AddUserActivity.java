@@ -40,7 +40,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class AddUserActivity extends AppCompatActivity {
     private final String TAG = getClass().getSimpleName();
     private EditText edtFullname, edtEmail, edtPassword;
-    private String typeConn = "";
+    private String typeConn = "retrofit";
     private Button btnSubmit;
 
     @Override
@@ -52,11 +52,16 @@ public class AddUserActivity extends AppCompatActivity {
         edtPassword = findViewById(R.id.edt_password);
         btnSubmit = findViewById(R.id.btn_submit);
 
-
         setTitle(getString(R.string.tambah_user));
+
         Bundle extras = getIntent().getExtras();
         if(extras != null){
             typeConn = extras.getString("typeConnection", "Undefined");
+            if(typeConn.equalsIgnoreCase("retrofit")){
+                setTitle("Send using Retrofit");
+            } else {
+                setTitle("Send using Volley");
+            }
         }
     }
 
@@ -105,7 +110,7 @@ public class AddUserActivity extends AppCompatActivity {
         proDialog.show();
 
         Retrofit.Builder builder = new Retrofit.Builder()
-                .baseUrl("http://192.168.1.2/volley/")
+                .baseUrl("http://192.168.1.2/Repo%20Mobile/volley/")
                 .addConverterFactory(GsonConverterFactory.create());
 
         Retrofit retrofit = builder.build();
@@ -118,14 +123,17 @@ public class AddUserActivity extends AppCompatActivity {
                 proDialog.dismiss();
                 if(response.body() != null){
                     if(response.body().getCode() == 201){
+                        Log.d("AddUser", "Response : " + response.body().getStatus());
                         Toast.makeText(getApplicationContext(), "Response : " + response.body().getStatus(),
                                 Toast.LENGTH_SHORT).show();
                         finish();
                     } else if (response.body().getCode() == 406){
+                        Log.d("AddUser", "Response : " + response.body().getStatus());
                         Toast.makeText(getApplicationContext(), "Response : " + response.body().getStatus(),
                                 Toast.LENGTH_SHORT).show();
                         edtEmail.requestFocus();
                     } else {
+                        Log.d("AddUser", "Response : " + response.body().getStatus());
                         Toast.makeText(getApplicationContext(), "Response : " + response.body().getStatus(),
                                 Toast.LENGTH_SHORT).show();
                         finish();
@@ -144,7 +152,7 @@ public class AddUserActivity extends AppCompatActivity {
 
     public void submitByVolley(User user){
         Gson gson = new Gson();
-        String URL = "http://192.168.1.2/volley/User_Registration.php";
+        String URL = "http://192.168.1.2/Repo%20Mobile/volley/User_Registration.php";
 
         ProgressDialog proDialog = new ProgressDialog(this);
         proDialog.setTitle("Volley");
@@ -153,7 +161,7 @@ public class AddUserActivity extends AppCompatActivity {
 
         String userRequest = gson.toJson(user);
         RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
-        JsonObjectRequest request = new JsonObjectRequest(com.android.volley.Request.Method.GET, URL, null,
+        JsonObjectRequest request = new JsonObjectRequest(com.android.volley.Request.Method.POST, URL, null,
                 new com.android.volley.Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
@@ -161,13 +169,16 @@ public class AddUserActivity extends AppCompatActivity {
                         if (response != null){
                             Request requestFormat = gson.fromJson(response.toString(), Request.class);
                             if(requestFormat.getCode() == 201){
+                                Log.d("AddUserVolley", "Response : " + requestFormat.getStatus());
                                 Toast.makeText(getApplicationContext(), "Response : " +requestFormat.getStatus(),
                                         Toast.LENGTH_SHORT).show();
                                 finish();
                             } else if (requestFormat.getCode() == 406){
+                                Log.d("AddUserVolley", "Response : " + requestFormat.getStatus());
                                 Toast.makeText(getApplicationContext(), "Response : " + requestFormat.getStatus(),
                                         Toast.LENGTH_SHORT).show();
                             } else {
+                                Log.d("AddUserVolley", "Response : " + requestFormat.getStatus());
                                 Toast.makeText(getApplicationContext(), "Response : " + requestFormat.getStatus(),
                                         Toast.LENGTH_SHORT).show();
                                 finish();

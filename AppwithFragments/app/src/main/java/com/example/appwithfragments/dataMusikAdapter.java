@@ -57,6 +57,11 @@ public class dataMusikAdapter extends RecyclerView.Adapter<dataMusikAdapter.data
 
     }
 
+    public void filterList(ArrayList<dataMusik> filteredList) {
+        arrayListMusic = filteredList;
+        notifyDataSetChanged();
+    }
+
     @Override
     public int getItemCount() {
 
