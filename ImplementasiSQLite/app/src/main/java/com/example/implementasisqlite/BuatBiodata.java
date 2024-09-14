@@ -14,7 +14,7 @@ public class BuatBiodata extends AppCompatActivity {
     protected Cursor cursor;
     DataHelper dbHelper;
     Button ton1, ton2;
-    EditText text1, text2, text3, text4, text5;
+    EditText text1, text2, text3, text4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +26,6 @@ public class BuatBiodata extends AppCompatActivity {
         text2 = (EditText) findViewById(R.id.editText2);
         text3 = (EditText) findViewById(R.id.editText3);
         text4 = (EditText) findViewById(R.id.editText4);
-        text5 = (EditText) findViewById(R.id.editText5);
         ton1 = (Button) findViewById(R.id.button1);
         ton2 = (Button) findViewById(R.id.button2);
 
@@ -35,12 +34,13 @@ public class BuatBiodata extends AppCompatActivity {
             public void onClick(View arg0) {
                 // TODO Auto-generated method stub
                 SQLiteDatabase db = dbHelper.getWritableDatabase();
-                db.execSQL("insert into biodata(no, nama, tgl, jk, alamat) values('" +
+                String pw = "123";
+                db.execSQL("insert into biodata(nama, tgl, jk, alamat,password) values('" +
                         text1.getText().toString() + "','" +
                         text2.getText().toString() + "','" +
                         text3.getText().toString() + "','" +
                         text4.getText().toString() + "','" +
-                        text5.getText().toString() + "')");
+                        pw + "')");
                 Toast.makeText(getApplicationContext(), "Berhasil", Toast.LENGTH_LONG).show();
                 MainActivity.ma.RefreshList();
                 finish();

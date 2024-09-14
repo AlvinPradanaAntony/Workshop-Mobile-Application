@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".RegisterActivity">
+    
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:text="Buat Akun Baru"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Silahkan buat akun anda dengan melengkapi data-data diri Anda"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+    
+    
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="45dp"
+        android:hint="Nama/Username"
+        android:paddingVertical="18dp"
+        android:paddingHorizontal="14dp"
+        android:background="@drawable/rounded_shape"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/textView1"
+        app:layout_constraintStart_toStartOf="@+id/textView1"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+    
+    <EditText
+    android:id="@+id/etPassword"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:ems="10"
+    android:background="@drawable/rounded_shape"
+    android:paddingHorizontal="14dp"
+    android:paddingVertical="18dp"
+    android:hint="Password"
+    android:inputType="textPassword"
+    app:layout_constraintEnd_toEndOf="@+id/etUsername"
+    app:layout_constraintStart_toStartOf="@+id/etUsername"
+    app:layout_constraintTop_toBottomOf="@+id/etUsername" />
+    
+    <EditText
+        android:id="@+id/etdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:background="@drawable/rounded_shape"
+        android:paddingHorizontal="14dp"
+        android:paddingVertical="18dp"
+        android:hint="Tgl Lahir"
+        app:layout_constraintEnd_toEndOf="@+id/etPassword"
+        app:layout_constraintStart_toStartOf="@+id/etPassword"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+    
+    <EditText
+        android:id="@+id/etGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:background="@drawable/rounded_shape"
+        android:paddingHorizontal="14dp"
+        android:paddingVertical="18dp"
+        android:hint="Gender (L atau P)"
+        app:layout_constraintEnd_toEndOf="@+id/etdate"
+        app:layout_constraintStart_toStartOf="@+id/etdate"
+        app:layout_constraintTop_toBottomOf="@+id/etdate" />
+    
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:background="@drawable/rounded_shape"
+        android:paddingHorizontal="14dp"
+        android:paddingVertical="18dp"
+        android:hint="Alamat"
+        app:layout_constraintEnd_toEndOf="@+id/etGender"
+        app:layout_constraintStart_toStartOf="@+id/etGender"
+        app:layout_constraintTop_toBottomOf="@+id/etGender" />
+    
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:paddingVertical="10dp"
+        android:text="Daftar"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_marginTop="38dp"
+        app:layout_constraintEnd_toEndOf="@+id/etAddress"
+        app:layout_constraintStart_toStartOf="@+id/etAddress"
+        app:layout_constraintTop_toBottomOf="@+id/etAddress" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
