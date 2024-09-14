@@ -17,31 +17,31 @@
 
 ### RecyclerView
 <p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74761484/136420867-d9ecd391-19fb-4253-9ec0-ecfdfa3c62fd.jpg" width="360px" height="780px">
+<img align="center" src="https://github.com/user-attachments/assets/30e518fd-20e1-4053-afbc-d3d90c3f2810">
 </p>
 <br>
 
 ### Fragment
 <p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74761484/137302723-ba1af36a-c944-4be5-ae7d-b391902d02a9.jpg" width="360px" height="780px">
+<img align="center" src="https://github.com/user-attachments/assets/b1317d4b-964f-4d3d-a8ec-b5deaed0e553">
 </p>
 <br>
 
 ### Intent
 <p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74761484/137428411-a6832b50-f367-460f-800f-ad62aaeafcdf.jpg" width="360px" height="780px">
+<img align="center" src="https://github.com/user-attachments/assets/fb2e30ff-89f9-4aab-85a3-746d58f1dee2">
 </p>
 <br>
 
 ### Management File
 <p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74761484/138597913-d517656f-bf5c-4633-a092-24b22b71677a.jpg" width="360px" height="780px">
+<img align="center" src="https://github.com/user-attachments/assets/392898a1-d786-429a-8296-49622eb6b854">
 </p>
 <br>
 
 ### Implementasi SQLite
 <p align="center">
-<img align="center" src="https://user-images.githubusercontent.com/74761484/138597931-c62d9a74-873e-4d5d-838b-2d584dd4685e.jpg" width="360px" height="780px">
+<img align="center" src="https://github.com/user-attachments/assets/7ab340b4-c211-426e-adaf-2f5d700496d7">
 </p>
 <br>
 
