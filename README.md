@@ -5,7 +5,7 @@
 - [ImplementasiSQLite](#implementasi-sqlite)
 - [ManagementFile](#management-file)
 - [RecycleView](#recyclerview)
-- [Retrovolley](#intent)
+- [Retrovolley](#retrovolley)
 - [SelectionWidget](#selection-widget)
 <hr>
 
