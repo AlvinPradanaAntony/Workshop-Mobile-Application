@@ -1,4 +1,4 @@
-# Workshop-Mobile-Application
+# Workshop Mobile Application based on Java
 ### Android Java Projects Practice Snippet
 - [AppwithFragments](#fragment)
 - [AppwithIntent](#intent)
