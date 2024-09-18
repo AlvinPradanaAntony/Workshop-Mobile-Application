@@ -24,6 +24,8 @@
         <activity
             android:name=".JsonParseActivity"
             android:exported="false"/>
+        <activity android:name=".MovieDBActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>
